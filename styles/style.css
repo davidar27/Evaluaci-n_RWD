@@ -24,7 +24,7 @@ main {
     width: 70%;
 }
 
-div {
+.box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +35,7 @@ div {
     height: 100%;
 
 }
-.box-2{
+#box-2{
     margin-top: 180px;
 }
 h2{
@@ -56,4 +56,39 @@ p {
 footer p{
     color: #cf84bd;
     font-size: 0.6em;
+}
+
+
+
+@media (max-width: 480px){
+
+    h1{
+        font-size: 2em;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        width: 100%;
+        padding: 2px;
+        margin:  30px 0px;
+    
+    }
+    img{
+        width: 100%;
+    }
+
+
+
+    p {
+        font-size: smaller;
+    }
 }
