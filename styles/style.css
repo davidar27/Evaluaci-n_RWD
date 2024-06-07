@@ -107,10 +107,12 @@ footer p{
         display: flex;
         justify-content: center;
         width: 100%;
+        
     }
     footer p{
         color: #cf84bd;
-        font-size: 0.9em;
+        font-size: 0.8em;
+        text-align: center;
         
     }
     
